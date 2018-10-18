@@ -104,11 +104,11 @@ img {
 .welcome-card > .mdl-card__title {
   color: #fff;
   height: 290px;
-  background: url("../img/cover.jpg") center/cover;
+  background: url("../img/mondrain.jpg") center/cover;
 }
 
 .event-card {
-  background: #3E4EB8;
+  background: black;
 }
 
 .event-card .mdl-card__actions {
@@ -226,4 +226,16 @@ footer .mdl-logo a {
 
 .footer-container {
   margin: 0 auto;
+}
+
+.mdl-layout__header-row.site-logo-row{
+  background-color: black;
+}
+
+.mdl-layout__drawer-button.mdl-layout--small-screen-only{
+  background-color: black;
+}
+
+.mdl-layout__header-row.site-navigation-row.mdl-layout--large-screen-only{
+  background-color: black;
 }
